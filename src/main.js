@@ -4,6 +4,7 @@ if(!root.dataset.mounted){
 root.dataset.mounted='true';
 const $=s=>root.querySelector(s), $$=s=>root.querySelectorAll(s);
 const gate=$('#gate'), main=$('#main'), title=$('#letter h2'), button=$('#open-ticket');
+$('#form-status').textContent=event.rsvpEndpoint?'Lời chúc và bó hoa sẽ được gửi đến Thảo.':'Chưa kết nối nơi nhận lời chúc. Nội dung chưa được gửi.';
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 let state='closed',timeline,scene,gsap,mm,watchdog;
 const validDate=event.startsAt && /[+]07:00$/.test(event.startsAt) && Number.isFinite(Date.parse(event.startsAt));
@@ -26,16 +27,25 @@ const plane=document.createElement('div');plane.className='paper-plane';Object.a
 plane.innerHTML='<svg viewBox="0 0 600 400" preserveAspectRatio="none"><defs><pattern id="paper-texture" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M0 28H28" stroke="#172244" stroke-opacity=".08"/></pattern></defs><polygon class="wing-a" points="0,0 300,0 300,400 0,400" fill="#fff4de"/><polygon class="wing-b" points="300,0 600,0 600,400 300,400" fill="#eadcbd"/><polygon class="crease" points="300,0 300,400 300,400" fill="#2448e5"/><path d="M45 95H210M45 110H165" stroke="#2448e5" stroke-width="5"/><text x="45" y="70" font-size="20" fill="#172244">THANH THẢO / 18</text></svg>';scene.append(plane);
 gsap.set(ticket,{opacity:0});
 timeline=gsap.timeline({onComplete:finish});
-timeline.to(clone.querySelector('.ticket-stub'),{duration:.55,x:mobile?20:65,y:mobile?85:25,rotation:mobile?9:13,opacity:0,ease:'power2.in'},0)
-.to(plane,{opacity:1,duration:.08},.45).to(clone.querySelector('.ticket-body'),{opacity:0,duration:.12},.45)
-.to(plane.querySelector('.wing-a'),{attr:{points:'0,115 600,0 245,230 0,115'},duration:.8,ease:'power2.inOut'},.45)
-.to(plane.querySelector('.wing-b'),{attr:{points:'600,0 600,0 160,400 245,230'},duration:.8,ease:'power2.inOut'},.45)
-.to(plane.querySelector('.crease'),{attr:{points:'245,230 275,260 160,400'},duration:.8},.45)
-.to(plane,{scaleX:.48,scaleY:.48,rotation:-12,duration:.8,ease:'power2.inOut'},.45)
-.call(()=>{gate.hidden=true;main.hidden=false;window.scrollTo(0,0)},[],1.2)
-.fromTo(main,{opacity:0,y:22},{opacity:1,y:0,duration:.85,ease:'power2.out'},1.2)
-.to(plane,{x:innerWidth*.9,y:-innerHeight*.8,rotation:-32,scale:.16,duration:1,ease:'power2.in'},1.2);
-watchdog=setTimeout(finish,2300);
+plane.querySelector('.wing-a').setAttribute('fill','#fff9f3');
+plane.querySelector('.wing-b').setAttribute('fill','#ebc4cf');
+plane.querySelector('.crease').setAttribute('fill','#684653');
+plane.querySelector('text').remove();
+plane.querySelector('svg > path').remove();
+const planeScale=Math.min(.72,(innerWidth-48)/bodyRect.width,300/bodyRect.height);
+const centerX=innerWidth/2-(bodyRect.left+bodyRect.width/2);
+const centerY=innerHeight*.44-(bodyRect.top+bodyRect.height/2);
+timeline.to(clone.querySelector('.ticket-stub'),{duration:.6,x:mobile?20:65,y:mobile?85:25,rotation:mobile?9:13,opacity:0,ease:'power2.in'},0)
+.to(plane,{opacity:1,duration:.12},.6).to(clone,{opacity:0,duration:.12},.6)
+.to(plane.querySelector('.wing-a'),{attr:{points:'0,200 350,35 600,120 320,225'},duration:1.2,ease:'power2.inOut'},.6)
+.to(plane.querySelector('.wing-b'),{attr:{points:'0,200 320,225 600,120 350,365'},duration:1.2,ease:'power2.inOut'},.9)
+.to(plane.querySelector('.crease'),{attr:{points:'70,200 320,225 600,120'},duration:1.2,ease:'power2.inOut'},.9)
+.to(plane,{x:centerX,y:centerY,scale:planeScale,rotation:-8,duration:1.5,ease:'power2.inOut'},.6)
+// A deliberate 0.9-second still frame lets guests recognize the folded plane.
+.call(()=>{gate.hidden=true;main.hidden=false;window.scrollTo(0,0)},[],3)
+.fromTo(main,{opacity:0,y:18},{opacity:1,y:0,duration:1.3,ease:'power2.out'},3)
+.to(plane,{x:centerX+innerWidth,y:centerY-innerHeight*.8,rotation:-25,scale:.18,duration:1.3,ease:'power2.in'},3);
+watchdog=setTimeout(finish,(timeline.duration()+1)*1000);
 }catch{finish()}}
 // The letter remains available if JavaScript or the animation chunk cannot load.
 main.hidden=true;
