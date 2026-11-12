@@ -1,0 +1,12 @@
+CẬP NHẬT WEBSITE THƯ MỜI
+
+1. Giải nén gói này vào thư mục dự án invitation_card trên máy tính. Chọn ghi đè 4 tệp cùng tên.
+2. Mở PowerShell tại thư mục invitation_card và chạy:
+
+git add index.html src/main.js src/style.css Thu_Moi_Thanh_Thao.html
+git commit -m "Update invitation colors and paper plane animation"
+git push origin main
+
+3. Cloudflare Pages sẽ tự build sau khi GitHub nhận commit nếu repo main đã được kết nối. Cấu hình build: npm run build; thư mục đầu ra: dist; root directory để trống.
+
+Đã kiểm tra build Vite thành công. Gói này không bao gồm backend/Code.gs hoặc thay đổi endpoint Google Sheet.

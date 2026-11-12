@@ -1,37 +1,1375 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap');
-#invitation{--blue:#2448e5;--cream:#fff4de;--ink:#172244;--coral:#ff684f;color:var(--ink);background:var(--cream);font-family:'Be Vietnam Pro',Arial,sans-serif;line-height:1.7;overflow:clip}body{margin:0}#invitation *{box-sizing:border-box}#invitation [hidden]{display:none!important}#invitation a{color:inherit;text-decoration:none}#invitation button,#invitation input{font:inherit}#invitation button,#invitation a{touch-action:manipulation}#invitation button{cursor:pointer}#invitation :focus-visible{outline:3px solid #a23a26;outline-offset:6px}#invitation h1,#invitation h2,#invitation p,#invitation figure{margin:0}#invitation h2{font-size:clamp(34px,4.7vw,66px);line-height:1.13;letter-spacing:-2px;font-weight:600}#invitation em{font-family:'Playfair Display',Georgia,serif;font-weight:500}#invitation .masthead{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:24px 5%;background:var(--blue);color:var(--cream);font-size:11px;letter-spacing:2px}#invitation .masthead>a{font-weight:800;min-height:44px;display:flex;align-items:center;gap:12px}#invitation .draft{border:1px solid #aebaff;padding:5px 10px;font-size:9px;letter-spacing:1px}#invitation .gate{background:var(--blue);color:var(--cream);padding:36px 6% 24px;min-height:calc(100svh - 92px);display:flex;align-items:center;flex-direction:column;justify-content:center;position:relative}#invitation .hero-intro{width:min(100%,1080px);margin-bottom:35px}#invitation .eyebrow{font-size:10px;letter-spacing:2px;font-weight:700;display:block}#invitation .hero-intro p{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:clamp(24px,3vw,38px);margin-top:10px;display:flex;justify-content:space-between;align-items:center}#invitation .little-star{font:60px Georgia;color:var(--coral)}#invitation .ticket{display:grid;grid-template-columns:minmax(0,1fr) 250px;width:min(100%,1080px);background:var(--cream);color:var(--ink);border-radius:5px;box-shadow:0 25px 50px #10248b40;position:relative;text-align:left}#invitation .ticket-body{padding:30px 40px;min-width:0}#invitation .ticket-top{display:flex;justify-content:space-between;gap:14px;font-size:9px;letter-spacing:1.6px;border-bottom:1px solid #17224433;padding-bottom:15px}#invitation .ticket-route{display:flex;align-items:center;gap:12px;margin:20px 0;font-size:10px;letter-spacing:2px;color:var(--blue);font-weight:700}#invitation .ticket-route svg{width:100px;height:24px}#invitation .small-label{font-size:9px;letter-spacing:2px}#invitation h1{font-size:clamp(40px,5.1vw,68px);line-height:1.05;letter-spacing:-2px;margin:13px 0 18px}#invitation h1 em{color:var(--blue)}#invitation .ticket-note{font-size:12px;line-height:1.65}#invitation .ticket-details{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;border-top:1px solid #17224433;margin-top:26px;padding-top:18px}#invitation .ticket-details span,#invitation .quick-details span{font-size:8px;letter-spacing:1.5px;display:block;margin-bottom:6px}#invitation .ticket-details strong{font-size:10px;font-weight:600;display:block;overflow-wrap:anywhere}#invitation .ticket-stub{border-left:2px dashed #17224450;padding:28px 23px;background:var(--coral);display:flex;align-items:center;justify-content:space-between;flex-direction:column;position:relative;border-radius:0 5px 5px 0;gap:15px}#invitation .ticket-stub:before,#invitation .ticket-stub:after{content:'';width:25px;height:25px;border-radius:50%;background:var(--blue);position:absolute;left:-14px;top:-13px}#invitation .ticket-stub:after{top:auto;bottom:-13px}#invitation .stub-kicker{font-size:9px;letter-spacing:1.2px}#invitation .age{font-size:112px;line-height:1.1;font-weight:700;letter-spacing:-8px;text-align:center}#invitation .age span{display:block;font-size:8px;letter-spacing:2px;font-weight:500}#invitation .barcode{height:42px;width:90%;background:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 4px,var(--ink) 4px 5px,transparent 5px 8px,var(--ink) 8px 12px,transparent 12px 15px)}#invitation .serial{font-size:8px;letter-spacing:2px}#invitation .primary{display:inline-flex;align-items:center;justify-content:center;gap:18px;border:0;border-radius:2px;min-height:52px;padding:14px 21px;background:var(--coral);color:var(--ink);font-size:12px;font-weight:700;transition:transform .2s,box-shadow .2s}#invitation .primary:hover{transform:translateY(-2px);box-shadow:0 5px 0 #17224425}#invitation .ticket-stub .primary{background:var(--ink);color:var(--cream);width:100%}#invitation .ticket-stub small{font-size:8px}#invitation .skip{min-height:48px;padding:16px;margin-top:12px;font-size:11px;border-bottom:1px solid #fff4de66}#invitation .skip span{margin-left:20px}#invitation .gate-footer{display:flex;width:min(100%,1080px);justify-content:space-between;gap:14px;font-size:8px;letter-spacing:1.7px;margin-top:42px}#invitation .section{max-width:1240px;margin:auto;padding:100px 6%}#invitation .letter{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:80px}#invitation .blue{color:var(--blue)}#invitation .letter h2{margin:25px 0 35px}#invitation .letter-copy>p{font-size:14px;max-width:450px;margin-bottom:18px}#invitation .letter-copy .salutation{font-weight:700}#invitation .signature{font-size:12px!important;margin-top:26px!important}#invitation .signature strong{display:block;font-family:'Playfair Display',Georgia,serif;font-size:30px;font-style:italic;color:var(--blue);font-weight:500}#invitation .quick-details{border-block:1px solid #17224430;padding:22px 0;margin:30px 0;display:grid;gap:18px}#invitation .quick-details strong{font-size:12px;font-weight:500}#invitation .text-link{display:inline-flex;align-items:center;gap:20px;min-height:44px;font-size:12px;font-weight:700;border:0;border-bottom:1px solid;background:transparent;padding:8px 0}#invitation .photo-postcard{background:#fffcf3;padding:16px 16px 25px;box-shadow:8px 15px 0 #1722440a;transform:rotate(3deg);position:relative;max-width:430px}#invitation .photo-placeholder{aspect-ratio:4/5;background:#c8d2f7;position:relative;overflow:hidden;padding:24px;display:flex;align-items:end}#invitation .photo-number{position:absolute;top:-35px;left:4px;font-size:260px;line-height:1.3;font-family:Georgia,serif;letter-spacing:-30px;color:#2448e51f}#invitation .photo-caption{position:relative;margin-bottom:50px}#invitation .photo-caption>span{font-size:9px;letter-spacing:2px}#invitation .photo-caption strong{display:block;font-size:44px;line-height:1.2;letter-spacing:-2px;font-weight:600}#invitation .photo-pending{position:absolute;bottom:18px;left:18px;right:18px;font-size:10px;border-top:1px solid #17224440;padding-top:12px}#invitation .photo-postcard figcaption{padding-top:20px;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:18px;display:flex;justify-content:space-between}#invitation .tape{position:absolute;top:-14px;left:35%;height:30px;width:120px;background:#e4bc7db0;z-index:1;transform:rotate(-7deg)}#invitation .round-stamp{position:absolute;right:-20px;bottom:63px;background:var(--coral);border:1px solid var(--ink);outline:4px solid var(--coral);width:100px;height:100px;border-radius:50%;display:grid;place-content:center;text-align:center;line-height:1.6;font-size:8px;letter-spacing:1px;transform:rotate(-16deg)}#invitation .section-heading{display:flex;justify-content:space-between;align-items:end;gap:40px}#invitation .section-heading h2{margin-top:22px}#invitation .section-heading p{font-size:12px;max-width:260px}#invitation .journey{border-top:1px solid #17224422}#invitation .schedule{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;padding:0;margin:60px 0 0;gap:40px;counter-reset:stop}#invitation .schedule li{border-top:1px dashed #2448e566;padding-top:25px;position:relative}#invitation .schedule li:before{content:'';position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%;background:var(--blue)}#invitation .schedule span{font-size:10px;color:var(--blue);letter-spacing:1px}#invitation .schedule h3{font-size:18px;font-weight:600;margin:12px 0}#invitation .schedule p{font-size:12px}#invitation .location{display:grid;grid-template-columns:1fr 1fr;gap:70px;border-top:1px solid #17224422}#invitation .location h2{margin:22px 0 28px}#invitation .location p{font-size:13px;margin:16px 0}#invitation .muted{color:#545568;font-size:11px!important}#invitation .map-art{background:#e6e9db;min-height:330px;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center}#invitation .map-art strong,#invitation .map-art>span{z-index:1;background:#fff4de;padding:5px 12px}#invitation .map-art strong{margin-top:18px;font-size:18px}#invitation .map-art>span{font-size:8px}#invitation .map-road{background:#fffdf4;border:1px solid #d1d6c8;position:absolute;width:160%;height:28px;transform:rotate(-28deg);left:-30%}#invitation .road-two{transform:rotate(62deg)}#invitation .road-three{transform:rotate(5deg);top:60px}#invitation .map-pin{background:var(--blue);color:var(--cream);width:70px;height:70px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);font-size:37px;line-height:70px;z-index:1}#invitation .rsvp{background:var(--blue);color:var(--cream);padding:85px 6% 25px}#invitation .rsvp-inner{max-width:1080px;margin:auto;text-align:center}#invitation .rsvp h2{margin:24px 0;font-size:clamp(38px,5.7vw,78px)}#invitation .rsvp>div>p{font-size:13px}#invitation form{max-width:520px;margin:30px auto 60px;text-align:left}#invitation label{font-size:11px;display:block;margin-bottom:8px}#invitation .form-row{display:flex;gap:10px}#invitation input{min-width:0;flex:1;padding:15px;border:1px solid #fff4de80;background:var(--cream);color:var(--ink);border-radius:2px;font-size:12px}#invitation #form-status{font-size:10px;margin-top:10px}#invitation .rsvp-bottom{display:flex;justify-content:space-between;gap:15px;border-top:1px solid #fff4de50;padding-top:22px;font-size:8px;letter-spacing:1.5px}#invitation .footer{padding:20px 6%;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:10px}#invitation .footer button{background:none;border:0;color:var(--ink);min-height:44px;font-size:10px}#invitation dialog{border:0;background:var(--cream);color:var(--ink);padding:50px;width:min(90%,500px);max-height:90svh;overflow:auto}#invitation dialog::backdrop{background:#101b50b8}#invitation dialog h2{font-size:40px;margin:20px 0}#invitation dialog p{font-size:13px}#invitation dialog .primary{margin-top:25px}#invitation .close{position:absolute;right:10px;top:8px;border:0;background:none;width:44px;height:44px;font-size:25px}#invitation .paper-scene{position:fixed;inset:0;pointer-events:none;z-index:50;perspective:1000px;overflow:hidden}#invitation .paper-clone{position:absolute;margin:0!important;box-shadow:none;transform-style:preserve-3d}#invitation .paper-plane{position:absolute;transform-style:preserve-3d}#invitation .paper-plane svg{width:100%;height:100%;overflow:visible}#invitation .reveal-ready{transition:opacity .55s,transform .55s}#invitation .reveal-ready:not(.visible){opacity:0;transform:translateY(16px)}#invitation .noscript-note{padding:20px}#invitation iframe{width:100%;height:100%;min-height:330px;border:0}#invitation .portrait-img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
-@media(min-width:1800px){#invitation .gate{min-height:850px}}@media(max-width:1023px){#invitation .letter{grid-template-columns:1fr;gap:55px}#invitation .photo-postcard{width:75%;justify-self:center}#invitation .letter-copy>p{max-width:600px}#invitation .letter h2{font-size:58px}#invitation .location{gap:35px}#invitation .ticket{grid-template-columns:minmax(0,1fr) 210px}#invitation .ticket-body{padding:25px}#invitation .section{padding-block:70px}#invitation .edition{display:none}}
-@media(max-width:639px){#invitation .masthead{padding:14px 6%;font-size:9px;letter-spacing:1px}#invitation .draft{font-size:8px}#invitation .gate{padding-top:22px;min-height:100svh}#invitation .hero-intro{margin-bottom:22px}#invitation .hero-intro p{font-size:23px;max-width:290px;line-height:1.3}#invitation .little-star{font-size:42px}#invitation .eyebrow{font-size:8px;letter-spacing:1.5px}#invitation .ticket{grid-template-columns:1fr;max-width:420px}#invitation .ticket-body{padding:23px}#invitation .ticket-top{font-size:7px;letter-spacing:1px}#invitation .ticket-route{margin:15px 0;font-size:8px}#invitation .ticket-route svg{width:75px}#invitation h1{font-size:45px}#invitation .ticket-details{gap:10px;margin-top:20px}#invitation .ticket-details span{font-size:7px;letter-spacing:.7px}#invitation .ticket-details strong{font-size:9px}#invitation .ticket-stub{border-left:0;border-top:2px dashed #17224450;padding:20px;display:grid;grid-template-columns:70px 1fr;gap:7px 20px;border-radius:0 0 5px 5px}#invitation .ticket-stub:before{top:-14px;left:-13px}#invitation .ticket-stub:after{top:-14px;bottom:auto;left:auto;right:-13px}#invitation .age{font-size:65px;letter-spacing:-5px;grid-row:1/4;grid-column:1}#invitation .age span{font-size:5px;letter-spacing:.4px}#invitation .stub-kicker{grid-column:2;font-size:7px}#invitation .barcode,#invitation .serial{display:none}#invitation .ticket-stub .primary{grid-column:2;min-height:46px;padding:10px;font-size:11px}#invitation .ticket-stub small{grid-column:2;font-size:7px}#invitation .gate-footer{font-size:6px;letter-spacing:.7px;margin-top:25px}#invitation .section{padding:60px 7%}#invitation .letter h2{font-size:43px;letter-spacing:-1.5px}#invitation .letter-copy>p{font-size:13px}#invitation .photo-postcard{width:92%;padding:12px 12px 20px}#invitation .photo-caption strong{font-size:36px}#invitation .round-stamp{right:-12px;width:80px;height:80px;font-size:7px}#invitation .photo-postcard figcaption{font-size:15px}#invitation .section-heading{display:block}#invitation .section-heading p{margin-top:22px}#invitation .schedule{grid-template-columns:1fr;margin-top:35px;gap:30px}#invitation .schedule li{padding-top:18px}#invitation .location{grid-template-columns:1fr;gap:30px}#invitation .rsvp{padding-top:60px}#invitation .rsvp h2{letter-spacing:-1.5px}#invitation .form-row{flex-direction:column}#invitation input{min-height:52px}#invitation .rsvp-bottom{font-size:6px;letter-spacing:1px;text-align:left}#invitation .footer{font-size:8px}#invitation dialog{padding:40px 25px}#invitation dialog h2{font-size:34px}}
-@media(prefers-reduced-motion:reduce){#invitation *,#invitation *:before,#invitation *:after{scroll-behavior:auto!important;transition:none!important}#invitation .reveal-ready:not(.visible){opacity:1;transform:none}}
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap");
+#invitation {
+  --blue: #2448e5;
+  --cream: #fff4de;
+  --ink: #172244;
+  --coral: #ff684f;
+  color: var(--ink);
+  background: var(--cream);
+  font-family: "Be Vietnam Pro", Arial, sans-serif;
+  line-height: 1.7;
+  overflow: clip;
+}
+body {
+  margin: 0;
+}
+#invitation * {
+  box-sizing: border-box;
+}
+#invitation [hidden] {
+  display: none !important;
+}
+#invitation a {
+  color: inherit;
+  text-decoration: none;
+}
+#invitation button,
+#invitation input {
+  font: inherit;
+}
+#invitation button,
+#invitation a {
+  touch-action: manipulation;
+}
+#invitation button {
+  cursor: pointer;
+}
+#invitation :focus-visible {
+  outline: 3px solid #a23a26;
+  outline-offset: 6px;
+}
+#invitation h1,
+#invitation h2,
+#invitation p,
+#invitation figure {
+  margin: 0;
+}
+#invitation h2 {
+  font-size: clamp(34px, 4.7vw, 66px);
+  line-height: 1.13;
+  letter-spacing: -2px;
+  font-weight: 600;
+}
+#invitation em {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 500;
+}
+#invitation .masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 5%;
+  background: var(--blue);
+  color: var(--cream);
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+#invitation .masthead > a {
+  font-weight: 800;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+#invitation .draft {
+  border: 1px solid #aebaff;
+  padding: 5px 10px;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+#invitation .gate {
+  background: var(--blue);
+  color: var(--cream);
+  padding: 36px 6% 24px;
+  min-height: calc(100svh - 92px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+#invitation .hero-intro {
+  width: min(100%, 1080px);
+  margin-bottom: 35px;
+}
+#invitation .eyebrow {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  display: block;
+}
+#invitation .hero-intro p {
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: clamp(24px, 3vw, 38px);
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#invitation .little-star {
+  font: 60px Georgia;
+  color: var(--coral);
+}
+#invitation .ticket {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 250px;
+  width: min(100%, 1080px);
+  background: var(--cream);
+  color: var(--ink);
+  border-radius: 5px;
+  box-shadow: 0 25px 50px #10248b40;
+  position: relative;
+  text-align: left;
+}
+#invitation .ticket-body {
+  padding: 30px 40px;
+  min-width: 0;
+}
+#invitation .ticket-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  font-size: 9px;
+  letter-spacing: 1.6px;
+  border-bottom: 1px solid #17224433;
+  padding-bottom: 15px;
+}
+#invitation .ticket-route {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--blue);
+  font-weight: 700;
+}
+#invitation .ticket-route svg {
+  width: 100px;
+  height: 24px;
+}
+#invitation .small-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+#invitation h1 {
+  font-size: clamp(40px, 5.1vw, 68px);
+  line-height: 1.05;
+  letter-spacing: -2px;
+  margin: 13px 0 18px;
+}
+#invitation h1 em {
+  color: var(--blue);
+}
+#invitation .ticket-note {
+  font-size: 12px;
+  line-height: 1.65;
+}
+#invitation .ticket-details {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  border-top: 1px solid #17224433;
+  margin-top: 26px;
+  padding-top: 18px;
+}
+#invitation .ticket-details span,
+#invitation .quick-details span {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-bottom: 6px;
+}
+#invitation .ticket-details strong {
+  font-size: 10px;
+  font-weight: 600;
+  display: block;
+  overflow-wrap: anywhere;
+}
+#invitation .ticket-stub {
+  border-left: 2px dashed #17224450;
+  padding: 28px 23px;
+  background: var(--coral);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  border-radius: 0 5px 5px 0;
+  gap: 15px;
+}
+#invitation .ticket-stub:before,
+#invitation .ticket-stub:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--blue);
+  position: absolute;
+  left: -14px;
+  top: -13px;
+}
+#invitation .ticket-stub:after {
+  top: auto;
+  bottom: -13px;
+}
+#invitation .stub-kicker {
+  font-size: 9px;
+  letter-spacing: 1.2px;
+}
+#invitation .age {
+  font-size: 112px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -8px;
+  text-align: center;
+}
+#invitation .age span {
+  display: block;
+  font-size: 8px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+#invitation .barcode {
+  height: 42px;
+  width: 90%;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--ink) 0 2px,
+    transparent 2px 4px,
+    var(--ink) 4px 5px,
+    transparent 5px 8px,
+    var(--ink) 8px 12px,
+    transparent 12px 15px
+  );
+}
+#invitation .serial {
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+#invitation .primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  border: 0;
+  border-radius: 2px;
+  min-height: 52px;
+  padding: 14px 21px;
+  background: var(--coral);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+#invitation .primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 #17224425;
+}
+#invitation .ticket-stub .primary {
+  background: var(--ink);
+  color: var(--cream);
+  width: 100%;
+}
+#invitation .ticket-stub small {
+  font-size: 8px;
+}
+#invitation .skip {
+  min-height: 48px;
+  padding: 16px;
+  margin-top: 12px;
+  font-size: 11px;
+  border-bottom: 1px solid #fff4de66;
+}
+#invitation .skip span {
+  margin-left: 20px;
+}
+#invitation .gate-footer {
+  display: flex;
+  width: min(100%, 1080px);
+  justify-content: space-between;
+  gap: 14px;
+  font-size: 8px;
+  letter-spacing: 1.7px;
+  margin-top: 42px;
+}
+#invitation .section {
+  max-width: 1240px;
+  margin: auto;
+  padding: 100px 6%;
+}
+#invitation .letter {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+#invitation .blue {
+  color: var(--blue);
+}
+#invitation .letter h2 {
+  margin: 25px 0 35px;
+}
+#invitation .letter-copy > p {
+  font-size: 14px;
+  max-width: 450px;
+  margin-bottom: 18px;
+}
+#invitation .letter-copy .salutation {
+  font-weight: 700;
+}
+#invitation .signature {
+  font-size: 12px !important;
+  margin-top: 26px !important;
+}
+#invitation .signature strong {
+  display: block;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 30px;
+  font-style: italic;
+  color: var(--blue);
+  font-weight: 500;
+}
+#invitation .quick-details {
+  border-block: 1px solid #17224430;
+  padding: 22px 0;
+  margin: 30px 0;
+  display: grid;
+  gap: 18px;
+}
+#invitation .quick-details strong {
+  font-size: 12px;
+  font-weight: 500;
+}
+#invitation .text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 44px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 0;
+  border-bottom: 1px solid;
+  background: transparent;
+  padding: 8px 0;
+}
+#invitation .photo-postcard {
+  background: #fffcf3;
+  padding: 16px 16px 25px;
+  box-shadow: 8px 15px 0 #1722440a;
+  transform: rotate(3deg);
+  position: relative;
+  max-width: 430px;
+}
+#invitation .photo-placeholder {
+  aspect-ratio: 4/5;
+  background: #c8d2f7;
+  position: relative;
+  overflow: hidden;
+  padding: 24px;
+  display: flex;
+  align-items: end;
+}
+#invitation .photo-number {
+  position: absolute;
+  top: -35px;
+  left: 4px;
+  font-size: 260px;
+  line-height: 1.3;
+  font-family: Georgia, serif;
+  letter-spacing: -30px;
+  color: #2448e51f;
+}
+#invitation .photo-caption {
+  position: relative;
+  margin-bottom: 50px;
+}
+#invitation .photo-caption > span {
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+#invitation .photo-caption strong {
+  display: block;
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  font-weight: 600;
+}
+#invitation .photo-pending {
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+  right: 18px;
+  font-size: 10px;
+  border-top: 1px solid #17224440;
+  padding-top: 12px;
+}
+#invitation .photo-postcard figcaption {
+  padding-top: 20px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+#invitation .tape {
+  position: absolute;
+  top: -14px;
+  left: 35%;
+  height: 30px;
+  width: 120px;
+  background: #e4bc7db0;
+  z-index: 1;
+  transform: rotate(-7deg);
+}
+#invitation .round-stamp {
+  position: absolute;
+  right: -20px;
+  bottom: 63px;
+  background: var(--coral);
+  border: 1px solid var(--ink);
+  outline: 4px solid var(--coral);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 8px;
+  letter-spacing: 1px;
+  transform: rotate(-16deg);
+}
+#invitation .section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 40px;
+}
+#invitation .section-heading h2 {
+  margin-top: 22px;
+}
+#invitation .section-heading p {
+  font-size: 12px;
+  max-width: 260px;
+}
+#invitation .journey {
+  border-top: 1px solid #17224422;
+}
+#invitation .schedule {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 60px 0 0;
+  gap: 40px;
+  counter-reset: stop;
+}
+#invitation .schedule li {
+  border-top: 1px dashed #2448e566;
+  padding-top: 25px;
+  position: relative;
+}
+#invitation .schedule li:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--blue);
+}
+#invitation .schedule span {
+  font-size: 10px;
+  color: var(--blue);
+  letter-spacing: 1px;
+}
+#invitation .schedule h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0;
+}
+#invitation .schedule p {
+  font-size: 12px;
+}
+#invitation .location {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  border-top: 1px solid #17224422;
+}
+#invitation .location h2 {
+  margin: 22px 0 28px;
+}
+#invitation .location p {
+  font-size: 13px;
+  margin: 16px 0;
+}
+#invitation .muted {
+  color: #545568;
+  font-size: 11px !important;
+}
+#invitation .map-art {
+  background: #e6e9db;
+  min-height: 330px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+#invitation .map-art strong,
+#invitation .map-art > span {
+  z-index: 1;
+  background: #fff4de;
+  padding: 5px 12px;
+}
+#invitation .map-art strong {
+  margin-top: 18px;
+  font-size: 18px;
+}
+#invitation .map-art > span {
+  font-size: 8px;
+}
+#invitation .map-road {
+  background: #fffdf4;
+  border: 1px solid #d1d6c8;
+  position: absolute;
+  width: 160%;
+  height: 28px;
+  transform: rotate(-28deg);
+  left: -30%;
+}
+#invitation .road-two {
+  transform: rotate(62deg);
+}
+#invitation .road-three {
+  transform: rotate(5deg);
+  top: 60px;
+}
+#invitation .map-pin {
+  background: var(--blue);
+  color: var(--cream);
+  width: 70px;
+  height: 70px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  font-size: 37px;
+  line-height: 70px;
+  z-index: 1;
+}
+#invitation .rsvp {
+  background: var(--blue);
+  color: var(--cream);
+  padding: 85px 6% 25px;
+}
+#invitation .rsvp-inner {
+  max-width: 1080px;
+  margin: auto;
+  text-align: center;
+}
+#invitation .rsvp h2 {
+  margin: 24px 0;
+  font-size: clamp(38px, 5.7vw, 78px);
+}
+#invitation .rsvp > div > p {
+  font-size: 13px;
+}
+#invitation form {
+  max-width: 520px;
+  margin: 30px auto 60px;
+  text-align: left;
+}
+#invitation label {
+  font-size: 11px;
+  display: block;
+  margin-bottom: 8px;
+}
+#invitation .form-row {
+  display: flex;
+  gap: 10px;
+}
+#invitation input {
+  min-width: 0;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #fff4de80;
+  background: var(--cream);
+  color: var(--ink);
+  border-radius: 2px;
+  font-size: 12px;
+}
+#invitation #form-status {
+  font-size: 10px;
+  margin-top: 10px;
+}
+#invitation .rsvp-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  border-top: 1px solid #fff4de50;
+  padding-top: 22px;
+  font-size: 8px;
+  letter-spacing: 1.5px;
+}
+#invitation .footer {
+  padding: 20px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 10px;
+}
+#invitation .footer button {
+  background: none;
+  border: 0;
+  color: var(--ink);
+  min-height: 44px;
+  font-size: 10px;
+}
+#invitation dialog {
+  border: 0;
+  background: var(--cream);
+  color: var(--ink);
+  padding: 50px;
+  width: min(90%, 500px);
+  max-height: 90svh;
+  overflow: auto;
+}
+#invitation dialog::backdrop {
+  background: #101b50b8;
+}
+#invitation dialog h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+#invitation dialog p {
+  font-size: 13px;
+}
+#invitation dialog .primary {
+  margin-top: 25px;
+}
+#invitation .close {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border: 0;
+  background: none;
+  width: 44px;
+  height: 44px;
+  font-size: 25px;
+}
+#invitation .paper-scene {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  perspective: 1000px;
+  overflow: hidden;
+}
+#invitation .paper-clone {
+  position: absolute;
+  margin: 0 !important;
+  box-shadow: none;
+  transform-style: preserve-3d;
+}
+#invitation .paper-plane {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+#invitation .paper-plane svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+#invitation .reveal-ready {
+  transition:
+    opacity 0.55s,
+    transform 0.55s;
+}
+#invitation .reveal-ready:not(.visible) {
+  opacity: 0;
+  transform: translateY(16px);
+}
+#invitation .noscript-note {
+  padding: 20px;
+}
+#invitation iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  border: 0;
+}
+#invitation .portrait-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+@media (min-width: 1800px) {
+  #invitation .gate {
+    min-height: 850px;
+  }
+}
+@media (max-width: 1023px) {
+  #invitation .letter {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+  #invitation .photo-postcard {
+    width: 75%;
+    justify-self: center;
+  }
+  #invitation .letter-copy > p {
+    max-width: 600px;
+  }
+  #invitation .letter h2 {
+    font-size: 58px;
+  }
+  #invitation .location {
+    gap: 35px;
+  }
+  #invitation .ticket {
+    grid-template-columns: minmax(0, 1fr) 210px;
+  }
+  #invitation .ticket-body {
+    padding: 25px;
+  }
+  #invitation .section {
+    padding-block: 70px;
+  }
+  #invitation .edition {
+    display: none;
+  }
+}
+@media (max-width: 639px) {
+  #invitation .masthead {
+    padding: 14px 6%;
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+  #invitation .draft {
+    font-size: 8px;
+  }
+  #invitation .gate {
+    padding-top: 22px;
+    min-height: 100svh;
+  }
+  #invitation .hero-intro {
+    margin-bottom: 22px;
+  }
+  #invitation .hero-intro p {
+    font-size: 23px;
+    max-width: 290px;
+    line-height: 1.3;
+  }
+  #invitation .little-star {
+    font-size: 42px;
+  }
+  #invitation .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.5px;
+  }
+  #invitation .ticket {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+  #invitation .ticket-body {
+    padding: 23px;
+  }
+  #invitation .ticket-top {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  #invitation .ticket-route {
+    margin: 15px 0;
+    font-size: 8px;
+  }
+  #invitation .ticket-route svg {
+    width: 75px;
+  }
+  #invitation h1 {
+    font-size: 45px;
+  }
+  #invitation .ticket-details {
+    gap: 10px;
+    margin-top: 20px;
+  }
+  #invitation .ticket-details span {
+    font-size: 7px;
+    letter-spacing: 0.7px;
+  }
+  #invitation .ticket-details strong {
+    font-size: 9px;
+  }
+  #invitation .ticket-stub {
+    border-left: 0;
+    border-top: 2px dashed #17224450;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 7px 20px;
+    border-radius: 0 0 5px 5px;
+  }
+  #invitation .ticket-stub:before {
+    top: -14px;
+    left: -13px;
+  }
+  #invitation .ticket-stub:after {
+    top: -14px;
+    bottom: auto;
+    left: auto;
+    right: -13px;
+  }
+  #invitation .age {
+    font-size: 65px;
+    letter-spacing: -5px;
+    grid-row: 1/4;
+    grid-column: 1;
+  }
+  #invitation .age span {
+    font-size: 5px;
+    letter-spacing: 0.4px;
+  }
+  #invitation .stub-kicker {
+    grid-column: 2;
+    font-size: 7px;
+  }
+  #invitation .barcode,
+  #invitation .serial {
+    display: none;
+  }
+  #invitation .ticket-stub .primary {
+    grid-column: 2;
+    min-height: 46px;
+    padding: 10px;
+    font-size: 11px;
+  }
+  #invitation .ticket-stub small {
+    grid-column: 2;
+    font-size: 7px;
+  }
+  #invitation .gate-footer {
+    font-size: 6px;
+    letter-spacing: 0.7px;
+    margin-top: 25px;
+  }
+  #invitation .section {
+    padding: 60px 7%;
+  }
+  #invitation .letter h2 {
+    font-size: 43px;
+    letter-spacing: -1.5px;
+  }
+  #invitation .letter-copy > p {
+    font-size: 13px;
+  }
+  #invitation .photo-postcard {
+    width: 92%;
+    padding: 12px 12px 20px;
+  }
+  #invitation .photo-caption strong {
+    font-size: 36px;
+  }
+  #invitation .round-stamp {
+    right: -12px;
+    width: 80px;
+    height: 80px;
+    font-size: 7px;
+  }
+  #invitation .photo-postcard figcaption {
+    font-size: 15px;
+  }
+  #invitation .section-heading {
+    display: block;
+  }
+  #invitation .section-heading p {
+    margin-top: 22px;
+  }
+  #invitation .schedule {
+    grid-template-columns: 1fr;
+    margin-top: 35px;
+    gap: 30px;
+  }
+  #invitation .schedule li {
+    padding-top: 18px;
+  }
+  #invitation .location {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  #invitation .rsvp {
+    padding-top: 60px;
+  }
+  #invitation .rsvp h2 {
+    letter-spacing: -1.5px;
+  }
+  #invitation .form-row {
+    flex-direction: column;
+  }
+  #invitation input {
+    min-height: 52px;
+  }
+  #invitation .rsvp-bottom {
+    font-size: 6px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  #invitation .footer {
+    font-size: 8px;
+  }
+  #invitation dialog {
+    padding: 40px 25px;
+  }
+  #invitation dialog h2 {
+    font-size: 34px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #invitation *,
+  #invitation *:before,
+  #invitation *:after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+  #invitation .reveal-ready:not(.visible) {
+    opacity: 1;
+    transform: none;
+  }
+}
 /* Visual QA: use a vector ornament so emoji rendering cannot change its color. */
-#invitation .little-star{font-size:0;width:54px;height:54px;flex-shrink:0;background:var(--coral);clip-path:polygon(44% 0,56% 0,56% 35%,81% 10%,90% 19%,65% 44%,100% 44%,100% 56%,65% 56%,90% 81%,81% 90%,56% 65%,56% 100%,44% 100%,44% 65%,19% 90%,10% 81%,35% 56%,0 56%,0 44%,35% 44%,10% 19%,19% 10%,44% 35%)}
-@media(max-width:639px){#invitation .gate{min-height:calc(100svh - 72px)}#invitation .little-star{width:36px;height:36px}#invitation .hero-intro p{max-width:none;font-size:22px}}
+#invitation .little-star {
+  font-size: 0;
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  background: var(--coral);
+  clip-path: polygon(
+    44% 0,
+    56% 0,
+    56% 35%,
+    81% 10%,
+    90% 19%,
+    65% 44%,
+    100% 44%,
+    100% 56%,
+    65% 56%,
+    90% 81%,
+    81% 90%,
+    56% 65%,
+    56% 100%,
+    44% 100%,
+    44% 65%,
+    19% 90%,
+    10% 81%,
+    35% 56%,
+    0 56%,
+    0 44%,
+    35% 44%,
+    10% 19%,
+    19% 10%,
+    44% 35%
+  );
+}
+@media (max-width: 639px) {
+  #invitation .gate {
+    min-height: calc(100svh - 72px);
+  }
+  #invitation .little-star {
+    width: 36px;
+    height: 36px;
+  }
+  #invitation .hero-intro p {
+    max-width: none;
+    font-size: 22px;
+  }
+}
 /* Accessibility QA: keep the oversized numeral legible against the photo placeholder. */
-#invitation .photo-number{color:#65739d}
+#invitation .photo-number {
+  color: #65739d;
+}
 
-#invitation #letter-body p{font-size:15px;line-height:1.9;margin-bottom:22px;max-width:500px}#invitation #letter-body p:last-child{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:23px;line-height:1.5;color:var(--blue);border-left:2px solid var(--coral);padding-left:20px;margin-top:24px}#invitation .photo-placeholder{padding:0}#invitation .portrait-img{object-position:center center}#invitation .schedule{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 50px}#invitation .schedule h3{line-height:1.5}#invitation .round-stamp{right:-16px;bottom:32px;width:85px;height:85px;font-size:7px}@media(max-width:639px){#invitation .schedule{grid-template-columns:1fr;gap:25px}#invitation #letter-body p{font-size:14px}#invitation #letter-body p:last-child{font-size:21px}#invitation .round-stamp{width:70px;height:70px;bottom:25px;font-size:6px}}
-#invitation .letter-copy,#invitation .photo-postcard{min-width:0}#invitation #letter-body{overflow-wrap:anywhere}@media(max-width:1023px){#invitation .letter{grid-template-columns:minmax(0,1fr)}}@media(max-width:359px){#invitation .letter h2{font-size:38px}#invitation .photo-postcard figcaption{font-size:13px}}
+#invitation #letter-body p {
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 22px;
+  max-width: 500px;
+}
+#invitation #letter-body p:last-child {
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: 23px;
+  line-height: 1.5;
+  color: var(--blue);
+  border-left: 2px solid var(--coral);
+  padding-left: 20px;
+  margin-top: 24px;
+}
+#invitation .photo-placeholder {
+  padding: 0;
+}
+#invitation .portrait-img {
+  object-position: center center;
+}
+#invitation .schedule {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px 50px;
+}
+#invitation .schedule h3 {
+  line-height: 1.5;
+}
+#invitation .round-stamp {
+  right: -16px;
+  bottom: 32px;
+  width: 85px;
+  height: 85px;
+  font-size: 7px;
+}
+@media (max-width: 639px) {
+  #invitation .schedule {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  #invitation #letter-body p {
+    font-size: 14px;
+  }
+  #invitation #letter-body p:last-child {
+    font-size: 21px;
+  }
+  #invitation .round-stamp {
+    width: 70px;
+    height: 70px;
+    bottom: 25px;
+    font-size: 6px;
+  }
+}
+#invitation .letter-copy,
+#invitation .photo-postcard {
+  min-width: 0;
+}
+#invitation #letter-body {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 1023px) {
+  #invitation .letter {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 359px) {
+  #invitation .letter h2 {
+    font-size: 38px;
+  }
+  #invitation .photo-postcard figcaption {
+    font-size: 13px;
+  }
+}
 
-#invitation form{max-width:820px}#invitation form>input,#invitation textarea,#invitation select{display:block;width:100%;padding:14px;border:1px solid #d4d8ed;background:var(--cream);color:var(--ink);font:inherit;border-radius:3px;margin-bottom:22px}#invitation textarea{resize:vertical}#invitation .flower-shop{border:1px solid #fff4de70;margin:30px 0;padding:20px}#invitation .flower-shop legend{font:italic 28px Georgia;padding:0 10px}#invitation .flower-shop p{font-size:12px;margin-bottom:20px}#invitation .flower-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}#invitation .flower-card{display:flex;align-items:center;justify-content:center;flex-direction:column;background:var(--cream);color:var(--ink);padding:12px;border:3px solid transparent;cursor:pointer;min-height:160px;text-align:center;font-size:11px}#invitation .flower-card:has(input:checked){border-color:var(--blue);background:#f5e0e7}#invitation .flower-card input{flex:none;min-height:18px;width:18px;height:18px;margin:0;accent-color:var(--blue)}#invitation .flower-card svg{width:100%;height:105px}#invitation #flower-picked{font-size:12px;margin:14px 0}#invitation .countdown{margin-top:30px;color:var(--blue);font-size:14px}@media(max-width:639px){#invitation .flower-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#invitation .flower-shop{padding:12px}#invitation .flower-shop legend{font-size:23px}}
+#invitation form {
+  max-width: 820px;
+}
+#invitation form > input,
+#invitation textarea,
+#invitation select {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d4d8ed;
+  background: var(--cream);
+  color: var(--ink);
+  font: inherit;
+  border-radius: 3px;
+  margin-bottom: 22px;
+}
+#invitation textarea {
+  resize: vertical;
+}
+#invitation .flower-shop {
+  border: 1px solid #fff4de70;
+  margin: 30px 0;
+  padding: 20px;
+}
+#invitation .flower-shop legend {
+  font: italic 28px Georgia;
+  padding: 0 10px;
+}
+#invitation .flower-shop p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+#invitation .flower-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+#invitation .flower-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--cream);
+  color: var(--ink);
+  padding: 12px;
+  border: 3px solid transparent;
+  cursor: pointer;
+  min-height: 160px;
+  text-align: center;
+  font-size: 11px;
+}
+#invitation .flower-card:has(input:checked) {
+  border-color: var(--blue);
+  background: #f5e0e7;
+}
+#invitation .flower-card input {
+  flex: none;
+  min-height: 18px;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  accent-color: var(--blue);
+}
+#invitation .flower-card svg {
+  width: 100%;
+  height: 105px;
+}
+#invitation #flower-picked {
+  font-size: 12px;
+  margin: 14px 0;
+}
+#invitation .countdown {
+  margin-top: 30px;
+  color: var(--blue);
+  font-size: 14px;
+}
+@media (max-width: 639px) {
+  #invitation .flower-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #invitation .flower-shop {
+    padding: 12px;
+  }
+  #invitation .flower-shop legend {
+    font-size: 23px;
+  }
+}
 
-/* Blush paper palette: cream surfaces, pink sections, readable plum ink. */
-#invitation{--blue:#684653;--cream:#fff9f3;--ink:#513540;--coral:#ebc4cf;--pink:#ebc4cf}
-#invitation .masthead,#invitation .gate,#invitation .rsvp{background:var(--pink);color:var(--ink)}
-#invitation .ticket-stub:before,#invitation .ticket-stub:after{background:var(--pink)}
-#invitation .draft,#invitation .flower-shop,#invitation .rsvp-bottom{border-color:#68465355}
-#invitation .skip{border-color:#68465366}
-#invitation .ticket{box-shadow:0 24px 65px #68465320}
-#invitation .primary{background:var(--blue);color:var(--cream);border-radius:8px}
-#invitation .little-star{background:var(--blue)!important;opacity:.65}
-#invitation .photo-placeholder,#invitation .map-art{background:#f2dce3}
-#invitation .tape{background:#ebc4cfb0}
-#invitation .muted{color:#715661}
-#invitation .flower-card:has(input:checked){border-color:var(--blue);background:#f5e0e7}
-#invitation .flower-card{border-radius:10px;transition:border-color .18s,background-color .18s}
-#invitation .flower-shop{min-width:0}
-#invitation input,#invitation textarea,#invitation select{font-size:16px}
-#invitation :focus-visible{outline-color:#684653}
-#invitation dialog::backdrop{background:#51354099}
-#invitation .paper-plane{filter:drop-shadow(0 14px 12px #51354030)}
-#invitation .primary:active{transform:scale(.98)}
-@media(hover:none){#invitation .primary:hover{transform:none;box-shadow:none}}
+/* Design tokens — Đề xuất A: Hồng Đồng Điệu. */
+:root {
+  --bg-hero: #f6dfe6;
+  --surface-card: #fffbf7;
+  --surface-stub: #e2aec0;
+  --accent-cta: #a63a5b;
+  --ink-primary: #452732;
+  --bg-section-alt: #faf0f3;
+  --accent-cta-hover: #8e2e4c;
+  --accent-cta-active: #78243e;
+  --accent-soft-tint: rgba(166, 58, 91, 0.1);
+  --ink-secondary: rgba(69, 39, 50, 0.76);
+  --ink-subtle: rgba(69, 39, 50, 0.58);
+  --border-card: #e2aec0;
+  --border-hairline: rgba(69, 39, 50, 0.14);
+  --border-perforation: rgba(69, 39, 50, 0.3);
+  --shadow-ticket: 0 18px 44px rgba(69, 39, 50, 0.1),
+    0 4px 12px rgba(69, 39, 50, 0.05);
+  --shadow-cta: 0 6px 18px rgba(166, 58, 91, 0.24);
+  --focus-ring: 0 0 0 3px rgba(166, 58, 91, 0.32);
+}
+#invitation {
+  --blue: var(--accent-cta);
+  --cream: var(--surface-card);
+  --ink: var(--ink-primary);
+  --coral: var(--surface-stub);
+  --pink: var(--bg-hero);
+  background: var(--bg-section-alt);
+  color: var(--ink-primary);
+}
+#invitation .masthead,
+#invitation .gate {
+  background: var(--bg-hero);
+  color: var(--ink-primary);
+}
+#invitation .masthead {
+  border-bottom: 1px solid var(--border-hairline);
+}
+#invitation .edition,
+#invitation .eyebrow,
+#invitation .ticket-top,
+#invitation .small-label,
+#invitation .ticket-details span,
+#invitation .quick-details span,
+#invitation .gate-footer {
+  color: var(--ink-secondary);
+}
+#invitation .ticket {
+  background: var(--surface-card);
+  box-shadow: var(--shadow-ticket);
+}
+#invitation .ticket-body {
+  background: var(--surface-card);
+}
+#invitation .ticket-stub {
+  background: var(--surface-stub);
+  border-color: var(--border-perforation);
+  color: var(--ink-primary);
+}
+#invitation .ticket-stub:before,
+#invitation .ticket-stub:after {
+  background: var(--bg-hero);
+  box-shadow: none;
+}
+#invitation .ticket-top,
+#invitation .ticket-details {
+  border-color: var(--border-hairline);
+}
+#invitation .ticket-route {
+  color: var(--ink-primary);
+}
+#invitation .ticket-route svg path:first-child {
+  stroke: var(--border-perforation);
+}
+#invitation .ticket-route svg path:last-child {
+  fill: var(--accent-cta);
+}
+#invitation .primary,
+#invitation .ticket-stub .primary {
+  background: var(--accent-cta);
+  color: var(--surface-card);
+  border-radius: 8px;
+  box-shadow: var(--shadow-cta);
+}
+#invitation .primary:hover,
+#invitation .ticket-stub .primary:hover {
+  background: var(--accent-cta-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-cta);
+}
+#invitation .primary:active,
+#invitation .ticket-stub .primary:active {
+  background: var(--accent-cta-active);
+  transform: translateY(0);
+}
+#invitation .primary:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+#invitation .little-star {
+  background: var(--accent-cta) !important;
+  opacity: 0.85;
+}
+#invitation .skip {
+  border-color: rgba(69, 39, 50, 0.35);
+}
+#invitation .skip:hover,
+#invitation .text-link:hover,
+#invitation .footer button:hover {
+  color: var(--accent-cta);
+  border-color: var(--accent-cta);
+}
+#invitation main {
+  background: var(--bg-section-alt);
+}
+#invitation .letter {
+  background: var(--surface-card);
+  border: 1px solid var(--border-card);
+  box-shadow: var(--shadow-ticket);
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#invitation .photo-postcard,
+#invitation dialog,
+#invitation input,
+#invitation textarea,
+#invitation select,
+#invitation .flower-card {
+  background: var(--surface-card);
+  color: var(--ink-primary);
+}
+#invitation .photo-placeholder,
+#invitation .map-art {
+  background: var(--bg-hero);
+}
+#invitation .tape {
+  background: rgba(226, 174, 192, 0.72);
+}
+#invitation .round-stamp {
+  background: var(--surface-stub);
+  border-color: var(--ink-primary);
+  outline-color: var(--surface-stub);
+}
+#invitation .journey,
+#invitation .location {
+  border-color: var(--border-card);
+}
+#invitation .schedule li {
+  border-color: var(--border-perforation);
+}
+#invitation .schedule li:before,
+#invitation .map-pin {
+  background: var(--accent-cta);
+}
+#invitation .map-art strong,
+#invitation .map-art > span {
+  background: var(--surface-card);
+}
+#invitation .rsvp {
+  background: var(--bg-hero);
+  color: var(--ink-primary);
+  border-top: 1px solid var(--border-card);
+}
+#invitation .flower-shop,
+#invitation .rsvp-bottom {
+  border-color: var(--border-card);
+}
+#invitation .flower-card:has(input:checked) {
+  border-color: var(--accent-cta);
+  background: var(--accent-soft-tint);
+}
+#invitation .flower-card {
+  border-radius: 10px;
+  transition:
+    border-color 0.18s,
+    background-color 0.18s;
+}
+#invitation .flower-card input {
+  accent-color: var(--accent-cta);
+}
+#invitation .flower-shop {
+  min-width: 0;
+}
+#invitation input,
+#invitation textarea,
+#invitation select {
+  font-size: 16px;
+  border-color: var(--border-card);
+}
+#invitation .muted {
+  color: var(--ink-secondary);
+}
+#invitation .footer {
+  background: var(--surface-card);
+  border-top: 1px solid var(--border-card);
+}
+#invitation :focus-visible {
+  outline-color: var(--accent-cta);
+}
+#invitation dialog::backdrop {
+  background: rgba(69, 39, 50, 0.68);
+}
+#invitation .paper-plane {
+  filter: drop-shadow(0 14px 12px rgba(69, 39, 50, 0.2));
+}
+@media (hover: none) {
+  #invitation .primary:hover {
+    background: var(--accent-cta);
+    transform: none;
+    box-shadow: var(--shadow-cta);
+  }
+}
